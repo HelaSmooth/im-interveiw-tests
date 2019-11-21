@@ -1,0 +1,198 @@
+  /* body * {
+border: 1px solid red;
+} */
+
+body {
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  color: #2a2a2a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Poppins, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #9c1736;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.header {
+    text-align: center;
+    color: #3f4747;
+  }
+
+  .logo {
+    margin: 15px 0 15px 0;
+  }
+
+  .header .header-content {
+    margin: 28px 0 28px 0;
+  }
+
+  .social-buttons{
+    margin: 36px 0 36px 0;
+    vertical-align: middle;
+  }
+
+  .donate-button {
+    background-color: #9d1735;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 4px 16px;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .facebook-button {
+    background-color: #034d79;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  .facebook-button img {
+    display: inline-block;
+    margin: 4px 12px 3px 13px;
+  }
+
+
+
+.nav {
+  background-color: #3a173b;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.menu-item {
+  display: inline-block;
+  margin: 15px 35px 15px 35px;
+}
+
+
+
+.banner {
+  height: 522px;
+  background: url(../images/banner-shadow.png), url(../images/banner-church.jpg);
+  background-repeat: repeat-x, no-repeat;
+  background-size: auto, cover;
+  background-position: left top, center;
+}
+
+.intro {
+  background-image: url(../images/banner-shadow.png);
+  background-repeat: repeat-x;
+  padding: 20px 0 40px;
+}
+
+.intro-header {
+  margin-bottom: 30px;
+}
+
+.callouts {
+  padding: 53px 0 60px;
+  background: url(../images/bottom-shadow.png), url(../images/callout-bg.png);
+  background-repeat: repeat-x, repeat;
+}
+
+.callout {
+  text-align: center;
+
+}
+
+.callout .image {
+  height: 158px;
+  display: flex;
+  align-items: center;
+}
+
+.callout img {
+  margin: 0 auto;
+}
+
+.callout-button {
+  display: block;
+  font-family: Poppins,sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  font-size: 22px;
+  border: 3px solid;
+  border-radius: 3px;
+  width: 210px;
+  margin: 25px auto 0;
+}
+
+.callout.who-we-are h2, .callout.who-we-are .callout-button {
+  color: #a94225;
+  border-color: #a94225;
+}
+
+.callout.get-involved h2, .callout.get-involved .callout-button {
+  color: #49234c;
+  border-color: #49234c;
+}
+
+.callout.events h2, .callout.events .callout-button {
+  color: #3f6933;
+  border-color: #3f6933;
+}
+
+.callout.sermons h2, .callout.sermons .callout-button {
+  color: #034d79;
+  border-color: #034d79;
+}
+
+.footer-one  {
+  background: url(../images/banner-shadow.png), url(../images/footer-purple-church.jpg);
+  background-repeat: repeat-x, no-repeat;
+  background-size: auto, cover;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.footer-two {
+  background-color: #3e4646;
+  color: #fff;
+}
+
+.footer-social {
+  margin: 36px 0 36px 0;
+  vertical-align: middle;
+}
+
+.footer-facebook-button {
+  background-color: #034d79;
+  border-radius: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer-facebook-button img {
+  display: inline-block;
+  margin: 4px 12px 3px 15px;
+}
+
+.footer-donate-button {
+  background-color: #9d1735;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px 16px 3px 16px;
+  color: #fff;
+  vertical-align: middle;
+}
+
+.copyright {
+  font-size: 14px;
+}
+
+.footer-two {
+  padding: 16px 0;
+}
