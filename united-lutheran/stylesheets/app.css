@@ -159,6 +159,7 @@ p {
     padding: 4px 16px 3px 16px;
     color: #fff;
     vertical-align: middle;
+    text-transform: uppercase;
 }
 .copyright {
     font-size: 14px;
