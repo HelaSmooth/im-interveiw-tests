@@ -22,13 +22,30 @@ p {
 }
 .logo {
     margin: 15px 0 15px 0;
+
+}
+
+
+@media (max-width: 768px) {
+  .logo img {
+    margin: 0 auto;
+  }
 }
 .header .header-content {
     margin: 28px 0 28px 0;
 }
-.social-buttons{
+.social-button{
     margin: 36px 0 36px 0;
     vertical-align: middle;
+}
+/* min-width equals greater than or equal to the value */
+@media (max-width: 1200px) and (min-width:992px) {
+    .donate-button {
+      margin-top: 7px;
+    }
+    .facebook-button{
+      margin-bottom: 7px;
+    }
 }
 .donate-button {
     background-color: #9d1735;
